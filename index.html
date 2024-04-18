@@ -54,7 +54,7 @@
 	}).addTo(map);
 
 // Read markers data from data.csv
-$.get('./Estacionesx.csv', function(csvString) {
+$.get('./Estaciones.csv', function(csvString) {
 
 // Use PapaParse to convert string to array of objects
 var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
